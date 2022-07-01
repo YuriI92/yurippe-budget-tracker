@@ -13,9 +13,27 @@ This will track your budget by entering what you earned and what you purchased e
 
 ## Website
 https://enigmatic-everglades-13899.herokuapp.com/
+![alt text](./assets/images/screen00_main.png)
 
 ## Usage
-1. Add your earning by entering its name and amount and just click the add funds button. 2. Subtract your purchace by entering its name and amout and just click the subtract funds. 3. When used in offline network environment, it will save your transactions in its database. So, even if you close it or refresh the page it will persist the changes. 4. The total budget is shown at the top of the page. 5. You can see your past transactions as a list and a graph.
+1. Total budget amount shown at top
+    ![alt text](./assets/images/screen01_total-budget.png)
+2. Visualize your past transactions as list and graph
+    ![alt text](./assets/images/screen02_list-graph.png)
+3. Add your earnings
+    1. Enter name of the transaction and its amount.
+    ![alt text](./assets/images/screen03_add-fund1.png)
+    2. Click `+ Add Funds` button.
+    ![alt text](./assets/images/screen03_add-fund2.png)
+4. Subtract your purchases from your budget
+    1. Enter name of the transaction and its amount.
+    ![alt text](./assets/images/screen04_subtract-fund1.png)
+    2. Click `- Subtract Funds` button.
+    ![alt text](./assets/images/screen04_subtract-fund2.png)
+5. Can be used in offline network environment
+    - It will save your transactions in its database even while you are offline.
+    - It persists your offline transactions when you are back online.
+    ![alt text](./assets/images/screen05_offline-functionality.gif)
 
 ## License
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
