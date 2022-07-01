@@ -1,6 +1,6 @@
 let db;
 // open a database
-const request = indexedDB.open('budget-tracker', 1);
+const request = indexedDB.open('budgeTracker', 1);
 
 // initialize the database
 request.onupgradeneeded = event => {
