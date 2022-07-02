@@ -34,6 +34,10 @@ https://enigmatic-everglades-13899.herokuapp.com/
     - It will save your transactions in its database even while you are offline.
     - It persists your offline transactions when you are back online.
     ![alt text](./assets/images/screen05_offline-functionality.gif)
+6. Install the app
+    - PC: Click the install button on the right-hand side of the url text area.<br/>
+    ![alt text](./assets/images/screen06_install.png)
+    - Smartphone: Install by `Add to home screen` from `Share` menu.
 
 ## License
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
