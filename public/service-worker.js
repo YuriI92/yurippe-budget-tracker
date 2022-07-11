@@ -57,10 +57,8 @@ self.addEventListener('fetch', function(e) {
                         .then(res => {
                             if (res.status === 200) {
                                 cache.put(e.request.url, res.clone());
-                                console.log(res);
                             }
 
-                            console.log(res);
                             return res;
                         })
                         .catch(err => {
